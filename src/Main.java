@@ -18,54 +18,54 @@ public class Main {
         //2
         int i = 0;
         for (; i < firstMassive.length; i++) {
-            System.out.print(firstMassive[i]);
+            /*System.out.print(firstMassive[i]);*/
             if (i < firstMassive.length - 1){
-                System.out.print(", ");
+                /*System.out.print(", ");*/
             }
         }
-        System.out.println();
+        /*System.out.println();*/
         i = 0;
         for (; i < secondMassive.length; i++) {
-            System.out.print(secondMassive[i]);
+            /*System.out.print(secondMassive[i]);*/
             if (i < secondMassive.length - 1){
-                System.out.print(", ");
+                /*System.out.print(", ");*/
             }
         }
-        System.out.println();
+        /*System.out.println();*/
         i = 0;
         for (; i < tenOfFibonacci.length; i++) {
-            System.out.print(tenOfFibonacci[i]);
+            /*System.out.print(tenOfFibonacci[i]);*/
             if (i < tenOfFibonacci.length - 1){
-                System.out.print(", ");
+                /*System.out.print(", ");*/
             }
         }
-        System.out.println();
+        /*System.out.println();*/
 
         //3
         i = firstMassive.length - 1;
         for (; i >= 0; i--) {
-            System.out.print(firstMassive[i]);
+            /*System.out.print(firstMassive[i]);*/
             if (i > 0) {
-                    System.out.print(", ");
+                    /*System.out.print(", ");*/
             }
         }
-        System.out.println();
+        /*System.out.println();*/
         i = secondMassive.length - 1;
         for (; i >= 0; i--) {
-            System.out.print(secondMassive[i]);
+            /*System.out.print(secondMassive[i]);*/
             if (i > 0) {
-                System.out.print(", ");
+                /*System.out.print(", ");*/
             }
         }
-        System.out.println();
+        /*System.out.println();*/
         i = tenOfFibonacci.length - 1;
         for (; i >= 0; i--) {
-            System.out.print(tenOfFibonacci[i]);
+            /*System.out.print(tenOfFibonacci[i]);*/
             if (i > 0) {
-                System.out.print(", ");
+                /*System.out.print(", ")*/;
             }
         }
-        System.out.println();
+        /*System.out.println();*/
 
         //4
         i = 0;
